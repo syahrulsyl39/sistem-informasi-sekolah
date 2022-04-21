@@ -55,4 +55,5 @@ class SiswaController extends Controller
         $edit_siswa = Siswa::where('id', $id)->first();
         return view('siswa.detailsiswa', compact('edit_siswa'));
     }
+    
 }
