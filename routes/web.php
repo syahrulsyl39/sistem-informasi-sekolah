@@ -1,5 +1,12 @@
 <?php
 
+use App\Http\Controllers\AbsenGuruController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\GuruController;
+use App\Http\Controllers\MapelController;
+use App\Http\Controllers\MasterController;
+use App\Http\Controllers\SiswaController;
 use Illuminate\Support\Facades\Route;
 
 /*
